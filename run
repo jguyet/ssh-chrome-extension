@@ -1,0 +1,4 @@
+#!/bin/sh
+cd /home/jguyet/bin/utils/shellac/
+exec /usr/bin/python2 ./bin/webapp.py 8783
+

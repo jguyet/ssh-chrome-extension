@@ -1,0 +1,13 @@
+[Unit]
+Description=Socket for Chrome extension
+After=network-online.target
+
+[Service]
+Type=simple
+User=jguyet
+Group=jguyet
+ExecStart=/usr/sbin/shellac
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target

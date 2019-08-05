@@ -1,0 +1,16 @@
+{
+  "actions": [
+    {
+      "name": "mail_link_gnome",
+      "title": "Open SSH terminal",
+      "command": "scripts/open_ssh \"$SHELLAC_INFO_LINKURL\"",
+      "contexts": ["link"]
+    },
+    {
+      "name": "env",
+      "title": "Debugging: dump environment",
+      "command": "scripts/dump_env",
+      "contexts": ["all"]
+    }
+  ]
+}
